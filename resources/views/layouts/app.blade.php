@@ -45,7 +45,7 @@
                 </div>
                 <div class="col-md-6 text-end">
                     <h5>Contact</h5>
-                    <p>Email: info@example.com<br>Phone: (123) 456-7890</p>
+                    <p>Email: info@example.com<br>Phone: 0702274334</p>
                 </div>
             </div>
         </div>

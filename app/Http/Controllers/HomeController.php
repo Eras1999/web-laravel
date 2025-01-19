@@ -28,4 +28,37 @@ class HomeController extends Controller
         
         return view('home', compact('featuredItems'));
     }
+
+
+    public function about()
+{
+    return view('about');
+}
+
+public function services()
+{
+    $services = [
+        [
+            'title' => 'Web Development',
+            'description' => 'Custom website development using modern technologies',
+            'icon' => 'code'
+        ],
+        [
+            'title' => 'Mobile Apps',
+            'description' => 'Native and cross-platform mobile application development',
+            'icon' => 'smartphone'
+        ],
+        [
+            'title' => 'Cloud Solutions',
+            'description' => 'Cloud infrastructure and deployment services',
+            'icon' => 'cloud'
+        ]
+    ];
+    return view('services', compact('services'));
+}
+
+public function contact()
+{
+    return view('contact');
+}
 }
